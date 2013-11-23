@@ -1,0 +1,19 @@
+{
+    "name": "TaskBar",
+    "version": "0.1.0",
+    "author": {
+        "name": "Mohan Ambalavanan",
+        "url": "http://creativemohan.com"
+    },
+    "engines": {
+        "node": ">=0.10.2"
+    },
+    "license": "MIT",
+
+    "devDependencies": {
+        "grunt": "~0.4.2",
+        "grunt-contrib-watch": "~0.5.3",
+        "grunt-contrib-compass ": "~0.6.0"
+
+    }
+}
