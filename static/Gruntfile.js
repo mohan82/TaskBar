@@ -4,7 +4,7 @@ module.exports = function(grunt) {
         sass: {
             dist: {
                 files: {
-                    'style/main.css' : 'sass/main.scss'
+                    '../task_bar/static/main.css': 'sass/main.scss'
                 }
             }
         },

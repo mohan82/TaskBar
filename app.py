@@ -1,6 +1,6 @@
-from task_bar.web import TaskBar;
+from task_bar import views
 
-run = TaskBar.app
+run = views.app
 
 
 if __name__ == '__main__':
