@@ -1,13 +1,18 @@
 <!DOCTYPE html>
 <html>
 <head>
+    <meta charset="UTF-8">
     <title>{{ title }}</title>
     <link rel=stylesheet type=text/css href="{{ url_for('static', filename='main.css') }}">
 </head>
 <body>
-{% for user in users %}
-    <p>{{ user }}</p>
-{% endfor %}
-
+<div id="content">
+    <p>
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed quis elit nec justo imperdiet sollicitudin sit amet
+        non dolor. Vivamus id augue lacinia, rhoncus arcu quis, euismod metus. Praesent eget eleifend ante. Integer
+        lectus elit, congue sit amet tristique nec, congue et velit. In nec turpis id sem tincidunt convallis in at
+        arcu.
+    </p>
+</div>
 </body>
 </html>
