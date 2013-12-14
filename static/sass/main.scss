@@ -1,26 +1,32 @@
-h2 {
-  margin-top:0;
-
-}
 #container {
-  width: 600px;
-  margin: auto; }
+  width: 800px;
+  margin: auto;
+  background: url(static/images/bg.png) no-repeat;
+}
+
+#header p {
+  margin-bottom: 0; }
+
+#main h2 {
+  margin: 0; }
 
 #header {
   color: green;
   background: black; }
 
-#header h1, p {
-  margin-bottom: 0; }
-
 #sidebar {
-  background: #e3e3e3;
   float: left;
-  width: 250px; }
+  width: 300px;
+  padding: 20px;
+}
+
 #footer {
   background: green;
   color: white;
-  clear: both; }
+  clear: both;
+}
 
 #main {
-  background: #666; }
+  float: right;
+  width: 400px;
+}

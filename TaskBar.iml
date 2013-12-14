@@ -1,16 +1,76 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <module type="PYTHON_MODULE" version="4">
+  <component name="FacetManager">
+    <facet type="django" name="Django">
+      <configuration>
+        <option name="rootFolder" value="$MODULE_DIR$/task_bar" />
+        <option name="settingsModule" value="settings.py" />
+        <option name="manageScript" value="manage.py" />
+      </configuration>
+    </facet>
+  </component>
   <component name="NewModuleRootManager" inherit-compiler-output="true">
     <exclude-output />
     <content url="file://$MODULE_DIR$" />
     <orderEntry type="jdk" jdkName="Python 2.7.3 virtualenv at ~/All_Projects/PyVirtualEnv" jdkType="Python SDK" />
     <orderEntry type="sourceFolder" forTests="false" />
+    <orderEntry type="library" scope="PROVIDED" name="sass-stdlib" level="application" />
   </component>
   <component name="TemplatesService">
-    <option name="TEMPLATE_CONFIGURATION" value="Jinja2" />
+    <option name="TEMPLATE_CONFIGURATION" value="Django" />
     <option name="TEMPLATE_FOLDERS">
       <list>
-        <option value="$MODULE_DIR$/templates" />
+        <option value="$MODULE_DIR$/build/Flask/docs/_themes/flask" />
+        <option value="$MODULE_DIR$/build/Flask/docs/_themes/flask_small" />
+        <option value="$MODULE_DIR$/build/Flask/docs/_templates" />
+        <option value="$MODULE_DIR$/build/Flask/build/lib.linux-i686-2.7/flask/testsuite/static" />
+        <option value="$MODULE_DIR$/build/Flask/build/lib.linux-i686-2.7/flask/testsuite/templates" />
+        <option value="$MODULE_DIR$/build/Flask/build/lib.linux-i686-2.7/flask/testsuite/test_apps/moduleapp/apps/admin/templates" />
+        <option value="$MODULE_DIR$/build/Flask/build/lib.linux-i686-2.7/flask/testsuite/test_apps/moduleapp/apps/frontend/templates" />
+        <option value="$MODULE_DIR$/build/Flask/build/lib.linux-i686-2.7/flask/testsuite/test_apps/blueprintapp/apps/admin/templates/admin" />
+        <option value="$MODULE_DIR$/build/Flask/build/lib.linux-i686-2.7/flask/testsuite/test_apps/blueprintapp/apps/frontend/templates/frontend" />
+        <option value="$MODULE_DIR$/build/Flask/flask/testsuite/static" />
+        <option value="$MODULE_DIR$/build/Flask/flask/testsuite/templates" />
+        <option value="$MODULE_DIR$/build/Flask/flask/testsuite/test_apps/moduleapp/apps/admin/templates" />
+        <option value="$MODULE_DIR$/build/Flask/flask/testsuite/test_apps/moduleapp/apps/frontend/templates" />
+        <option value="$MODULE_DIR$/build/Flask/flask/testsuite/test_apps/blueprintapp/apps/admin/templates/admin" />
+        <option value="$MODULE_DIR$/build/Flask/flask/testsuite/test_apps/blueprintapp/apps/frontend/templates/frontend" />
+        <option value="$MODULE_DIR$/build/Flask/examples/flaskr/templates" />
+        <option value="$MODULE_DIR$/build/Flask/examples/persona/templates" />
+        <option value="$MODULE_DIR$/build/Flask/examples/minitwit/templates" />
+        <option value="$MODULE_DIR$/build/Flask/examples/jqueryexample/templates" />
+        <option value="$MODULE_DIR$/build/Flask/examples/blueprintexample/simple_page/templates/pages" />
+        <option value="$MODULE_DIR$/build/Jinja2/ext/django2jinja/templates" />
+        <option value="$MODULE_DIR$/build/Jinja2/docs/_themes/jinja" />
+        <option value="$MODULE_DIR$/build/Jinja2/docs/_templates" />
+        <option value="$MODULE_DIR$/build/Jinja2/jinja2/testsuite/res/templates" />
+        <option value="$MODULE_DIR$/build/Jinja2/jinja2/testsuite/res/templates/foo" />
+        <option value="$MODULE_DIR$/build/Jinja2/examples/basic/templates" />
+        <option value="$MODULE_DIR$/build/Jinja2/examples/rwbench/mako" />
+        <option value="$MODULE_DIR$/build/Jinja2/examples/rwbench/jinja" />
+        <option value="$MODULE_DIR$/build/Jinja2/examples/rwbench/django" />
+        <option value="$MODULE_DIR$/build/Jinja2/examples/rwbench/genshi" />
+        <option value="$MODULE_DIR$/build/Werkzeug/docs/_themes/werkzeug" />
+        <option value="$MODULE_DIR$/build/Werkzeug/docs/_templates" />
+        <option value="$MODULE_DIR$/build/Werkzeug/examples/plnt/templates" />
+        <option value="$MODULE_DIR$/build/Werkzeug/examples/couchy/templates" />
+        <option value="$MODULE_DIR$/build/Werkzeug/examples/shorty/templates" />
+        <option value="$MODULE_DIR$/build/Werkzeug/examples/shortly/templates" />
+        <option value="$MODULE_DIR$/build/Werkzeug/examples/cupoftee/templates" />
+        <option value="$MODULE_DIR$/build/Werkzeug/examples/i18nurls/templates" />
+        <option value="$MODULE_DIR$/build/Werkzeug/examples/coolmagic/templates" />
+        <option value="$MODULE_DIR$/build/Werkzeug/examples/coolmagic/templates/static" />
+        <option value="$MODULE_DIR$/build/Werkzeug/examples/simplewiki/templates" />
+        <option value="$MODULE_DIR$/build/itsdangerous/docs/_themes/flask_small" />
+        <option value="$MODULE_DIR$/static/node_modules/grunt/node_modules/colors" />
+        <option value="$MODULE_DIR$/static/node_modules/grunt/node_modules/js-yaml/node_modules/argparse/node_modules/underscore" />
+        <option value="$MODULE_DIR$/static/node_modules/grunt/node_modules/js-yaml/node_modules/argparse/node_modules/underscore.string/test" />
+        <option value="$MODULE_DIR$/static/node_modules/grunt/node_modules/js-yaml/node_modules/argparse/node_modules/underscore.string/test/test_underscore" />
+        <option value="$MODULE_DIR$/static/node_modules/grunt/node_modules/underscore.string/test" />
+        <option value="$MODULE_DIR$/static/node_modules/grunt/node_modules/underscore.string/test/test_underscore" />
+        <option value="$MODULE_DIR$/static/node_modules/grunt-contrib-watch/node_modules/tiny-lr/node_modules/qs/test/browser" />
+        <option value="$MODULE_DIR$/static/node_modules/grunt-contrib-watch/node_modules/tiny-lr/node_modules/faye-websocket/examples" />
+        <option value="$MODULE_DIR$/task_bar/templates" />
       </list>
     </option>
   </component>
