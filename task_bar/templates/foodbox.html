@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>{{ title }}</title>
+    <link rel="stylesheet" type="text/css"
+          href="https://raw.githubusercontent.com/necolas/normalize.css/master/normalize.css"/>
+    <link href='http://fonts.googleapis.com/css?family=Overlock' rel='stylesheet' type='text/css'>
+    <link rel=stylesheet type=text/css href="{{ url_for('static', filename='foodbox.css') }}">
+   <script type="text/javascript" src="http://cdnjs.cloudflare.com/ajax/libs/modernizr/2.7.1/modernizr.dev.min.js"></script>
+
+</head>
+<body>
+<header>
+ <h1>Foodbox</h1>
+</header>
+<body>
+<div id="container">
+	<aside>
+	<form id="search-form">
+		<label for="recipies">Search Recipes</label> 
+		<input type="text" id="recipes" name="recipes" autofocus required>
+		<input type="submit" value="Submit">
+	</form>
+	<form id="login-form" action="" method="get">
+		<h3>Login</h3>
+    	   	 <label for="username">Username</label>
+         	 <input type="text" name="username" id="username" autofocus required/>
+         	 <label for="password">	Password</label>
+           	 <input type="password" name="Password" id="password" autofocus required/>
+        </fieldset>
+			 <input type="submit" value="Submit" />	   
+	</form>	
+	<p>
+	    Don't have an account ?	    
+	</p>
+	<a href="#">Click Here to get one now!</a>
+	</aside>
+	<div id ="main">
+	   <h2>Get Cookin'...</h2>
+	   <p>
+	   Foodbox is the best way to collect and share recipes with others. Create an account and start building your online Foodbox today.
+	   </p>
+	  <div id="recently-added"> 
+		  <h3>Recently added Recipes</h3>                                            
+	   	  <ul>
+	   			<li><a href="#">Stuffed Chicken Breast </a></li>
+	   			<li><a href="#">Almond Chicken</a> </li>
+	   			<li><a href="#">Baked cod</a> </li>
+	   			<li><a href="#">Chocolate Mint Brownies </a></li> 
+	   	   </ul>
+	   </div>
+	   <div id="recipe-categories">
+	   		<h3> Recipe Categories </h3>
+	   		<ul>
+	   				<li> <a href="#">Dessert</a> </li>
+	   				<li> <a href="#">Poultry</a> </li>
+	   				<li> <a href="#">Seafood</a> </li>
+	   				<li> <a href="#">Pasta</a> </li>
+	   				<li> <a href="#">More ..</a></li>
+	   
+	   		</ul>
+	   </div>	
+	</div>
+</div>
+<footer>
+       <p>Copyright 2007 Foodbox LLC </p>    
+    <ul>
+    	<li><a href="#">Terms of Service </a></li>
+		<li><a href="#">Privacy Policy</a></li>
+	</ul>
+</footer>
+
+</body>

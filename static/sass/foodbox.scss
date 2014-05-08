@@ -1,0 +1,103 @@
+body {
+  font-family: 'Overlock',helvetica, arial, sans-serif;
+  line-height: 22px;
+  font-size: 16px;
+  width: 1080px;
+  margin: auto;
+  border: solid #1F6070 1px; 
+}
+
+/****=Header ****/
+header {
+  background-color: #BDD3DC;
+  height: 100px; }
+
+header h1 {
+  font-size: 50px;
+  padding: 20px 0px; }
+
+/***=End Header ***/
+
+/****=Aside ***/
+aside {
+  float: left;
+  width: 432px; 
+  background-color: #83AAB0;
+}
+
+
+/***=Login Form **/
+#login-form {
+  padding:10px;
+  margin:5px 5px 5px 5px;
+  width:400px;
+}
+#login-form label,input{
+  padding:3px;
+  display:inline;
+  width:100px; 
+}
+#login-form label:after{
+	content:':';
+}
+#login-form input[type='submit'] {
+  margin:10px 10px;
+  display:block;
+  width:100px;
+}
+/***=End Login Form **/
+
+/***=Search Form **/
+#search-form {
+  width: 400px; 
+  padding:10px 10px;
+}
+#search-form label{
+   font-weight:bold;
+   font-size:20px;
+   display:block;
+}
+#search-form input {
+  width:100px;
+  padding: 3px; 
+}
+/***=End Search Form***/
+/****=End Aside **/
+
+/***=Main Content **/
+#main{
+	float:right;
+	width:648px;
+}
+div #recently-added,#recipe-categories  {
+  width: 300px;
+  padding-left:20px;
+ }
+#recently-added {
+ float:left;
+}
+
+#recipe-categories {
+  float: right;
+}
+footer {
+	background-color:#1511CC;
+	color:#FF00FF;
+	height:100px;
+	clear:both;
+	margin:0px;
+
+}
+footer li {
+  display:inline;
+}
+footer a {
+   text-decoration:none;
+}
+footer li:after{
+  content:'|';
+}
+footer li:last-child:after{
+  content:'';
+}
+/***=End MAin Content **/

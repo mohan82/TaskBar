@@ -1,0 +1,284 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"t",
+				"type	Attr"
+			],
+			[
+				"in",
+				"input"
+			],
+			[
+				"pad",
+				"padding"
+			],
+			[
+				"text",
+				"text-align:   (property)"
+			],
+			[
+				"l",
+				"li	Tag"
+			],
+			[
+				"font",
+				"font-weight"
+			],
+			[
+				"bac",
+				"background-color:   (property)"
+			],
+			[
+				"lo",
+				"Login"
+			],
+			[
+				"li",
+				"link	Tag"
+			],
+			[
+				"s",
+				"sass"
+			],
+			[
+				"task",
+				"task_bar"
+			],
+			[
+				"fo",
+				"footer	Tag"
+			],
+			[
+				"ti",
+				"title"
+			],
+			[
+				"r",
+				"render_template"
+			]
+		]
+	},
+	"buffers":
+	[
+	],
+	"build_system": "",
+	"command_palette":
+	{
+		"height": 392.0,
+		"selected_items":
+		[
+			[
+				"SAS",
+				"Set Syntax: Sass"
+			],
+			[
+				"sass",
+				"Set Syntax: Sass"
+			],
+			[
+				"col",
+				"Color Picker"
+			],
+			[
+				"instal",
+				"Package Control: Install Package"
+			],
+			[
+				"install",
+				"Package Control: Install Package"
+			],
+			[
+				"list pag",
+				"Package Control: Install Package"
+			],
+			[
+				"Grunt",
+				"Grunt"
+			],
+			[
+				"Gri",
+				"Grunt: Kill Running Tasks"
+			],
+			[
+				"grunt",
+				"Grunt"
+			],
+			[
+				"p",
+				"Package Control: Install Package"
+			],
+			[
+				"Package Control: ",
+				"Package Control: Install Package"
+			],
+			[
+				"package",
+				"Package Control: Install Package"
+			],
+			[
+				"",
+				"Package Control: List Packages"
+			]
+		],
+		"width": 467.0
+	},
+	"console":
+	{
+		"height": 139.0,
+		"history":
+		[
+			"import urllib.request,os,hashlib; h = '7183a2d3e96f11eeadd761d777e62404' + 'e330c659d4bb41d3bdf022e94cab3cd0'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://sublime.wbond.net/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by)"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/home/mohan/All_Projects/python/TaskBar/static/sass/main.scss",
+		"/home/mohan/All_Projects/python/TaskBar/static/Gruntfile.js",
+		"/home/mohan/All_Projects/python/TaskBar/task_bar/templates/foodbox.html",
+		"/home/mohan/All_Projects/python/TaskBar/static/sass/foodbox.scss",
+		"/home/mohan/All_Projects/python/TaskBar/static/sass/position.scss",
+		"/home/mohan/All_Projects/python/TaskBar/app.py",
+		"/home/mohan/All_Projects/python/TaskBar/requirements.txt",
+		"/home/mohan/All_Projects/python/TaskBar/task_bar/static/foodbox.css",
+		"/home/mohan/Downloads/NiceSimpleContactForm/NiceSimpleContactForm/index.html",
+		"/home/mohan/All_Projects/python/TaskBar/static/package.json",
+		"/home/mohan/All_Projects/python/TaskBar/task_bar/static/foodbox*.css",
+		"/home/mohan/All_Projects/python/TaskBar/static/.sublime-grunt.cache",
+		"/home/mohan/All_Projects/python/TaskBar/README",
+		"/home/mohan/All_Projects/python/TaskBar/TaskBar.iml",
+		"/home/mohan/All_Projects/python/TaskBar/requirements.sublime-project",
+		"/home/mohan/All_Projects/python/TaskBar/task_bar/__init__.py",
+		"/home/mohan/All_Projects/python/TaskBar/task_bar/static/main.css",
+		"/home/mohan/All_Projects/python/TaskBar/task_bar/static/position.css",
+		"/home/mohan/All_Projects/python/TaskBar/task_bar/views.py",
+		"/home/mohan/All_Projects/python/TaskBar/task_bar/templates/index.html"
+	],
+	"find":
+	{
+		"height": 42.0
+	},
+	"find_in_files":
+	{
+		"height": 93.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"top"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 42.0
+	},
+	"input":
+	{
+		"height": 33.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"project": "requirements.sublime-project",
+	"replace":
+	{
+		"height": 80.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 282.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}

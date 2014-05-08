@@ -4,15 +4,15 @@
     <facet type="django" name="Django">
       <configuration>
         <option name="rootFolder" value="$MODULE_DIR$/task_bar" />
-        <option name="settingsModule" value="settings.py" />
-        <option name="manageScript" value="manage.py" />
+        <option name="settingsModule" value="" />
+        <option name="manageScript" value="" />
       </configuration>
     </facet>
   </component>
   <component name="NewModuleRootManager" inherit-compiler-output="true">
     <exclude-output />
     <content url="file://$MODULE_DIR$" />
-    <orderEntry type="jdk" jdkName="Python 2.7.3 virtualenv at ~/All_Projects/PyVirtualEnv" jdkType="Python SDK" />
+    <orderEntry type="jdk" jdkName="Python 2.7.5+ virtualenv at ~/All_Projects/venv" jdkType="Python SDK" />
     <orderEntry type="sourceFolder" forTests="false" />
     <orderEntry type="library" scope="PROVIDED" name="sass-stdlib" level="application" />
   </component>

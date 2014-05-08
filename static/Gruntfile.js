@@ -3,9 +3,17 @@ module.exports = function(grunt) {
         pkg: grunt.file.readJSON('package.json'),
         sass: {
             dist: {
-                files: {
-                    '../task_bar/static/main.css': 'sass/main.scss'
-                }
+                files:[{
+                    expand:true,
+                    cwd:"sass/", 
+                    src:["**/**.scss"],
+                    dest:"../task_bar/static/",
+                    ext:".css"
+                }]
+                // files: {
+                //     '../task_bar/static/main.css': 'sass/main.scss',
+                //     '../task_bar/static/position.css':'sass/position.scss'
+                // }
             }
         },
         watch: {
