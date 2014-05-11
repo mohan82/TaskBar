@@ -2,7 +2,7 @@
 <html>
 <head>
     <meta charset="UTF-8">
-    <title>{{ title }}</title>          
+    <title>{{ title }}</title>
     <link rel=stylesheet type=text/css href="{{ url_for('static', filename='blog/960_24_col.css') }}">
     <link rel=stylesheet type=text/css href="{{ url_for('static', filename='blog/text.css') }}">
     <link rel=stylesheet type=text/css href="{{ url_for('static', filename='blog/reset.css') }}">
@@ -12,38 +12,159 @@
 <body>
 
 <div class="container">
-    <header>
-        <h1> Mohan Ambalavanans Blog </h1>
-        <nav>
-            <ul>
-                <li><a href="#">Home</a></li>
-                <li><a href="#">About</a></li>
-                <li><a href="#">Portfolio</a></li>
-                <li><a href="#">Blog</a></li>
-                <li><a href="#">Contact</a></li>
-            </ul>
-        </nav>
-        <menu>
-            <ul id="social">
-                <li><img src="{{ url_for('static',filename='images/icons/1.png') }}" alt="Facebook"/> </li>
-                <li><img src="{{ url_for('static',filename='images/icons/1.png') }}" alt="Dribble"></li>
-                <li><img src="{{ url_for('static',filename='images/icons/1.png') }}" alt="Twitter"/> </li>
-                <li><img src="{{ url_for('static',filename='images/icons/1.png' )}}" alt="Flickr"></li>
-            </ul>
-        </menu>
-        <form action="#" method="post">
-           Search: <input type="text" name="Search" id="search" placeholder="Search"/>
-        </form>
-    </header>
+    <div class="topbar">
+        <header>
+            <h1> Mohan Ambalavanans Blog </h1>
+            <nav>
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">About</a></li>
+                    <li><a href="#">Portfolio</a></li>
+                    <li><a href="#">Blog</a></li>
+                    <li><a href="#">Contact</a></li>
+                </ul>
+            </nav>
+            <menu>
+                <ul id="social">
+                    <li><img src="{{ url_for('static',filename='images/icons/1.png') }}" alt="Facebook"/></li>
+                    <li><img src="{{ url_for('static',filename='images/icons/1.png') }}" alt="Dribble"></li>
+                    <li><img src="{{ url_for('static',filename='images/icons/1.png') }}" alt="Twitter"/></li>
+                    <li><img src="{{ url_for('static',filename='images/icons/1.png' )}}" alt="Flickr"></li>
+                </ul>
+            </menu>
+            <form action="#" method="post">
+                Search: <input type="text" name="Search" id="search" placeholder="Search"/>
+            </form>
+        </header>
+    </div>
+    <!-- End Top Bar -->
     <div id="banner-wrap">
         <div id="banner">
             <h2>Welcome to Mohan Ambalavanans Blog</h2>
-            <div id="featured">
-                <img src="" alt="Featured">
-                <img src="" alt="Featured2"/>
-            </div>
-        </div>
 
+            <div id="featured">
+                <img src="img/Featured" alt="Featured">
+                <img src="img/Featured" alt="Featured2"/>
+            </div>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+            </p>
+
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+            </p>
+            <button>Learn More</button>
+            <button>Our Work</button>
+        </div>
+        <p id="breadcrumbs">You are here :<a href="#">Home</a><a href="#"> Welcome</a></p>
+    </div>
+    <!--- End Banner Wrap -->
+    <div id="main">
+        <div id="primary">
+            <h3>From the Blog</h3>
+            <article>
+                <h2>Blog Post Name here</h2>
+                <h6>December 2010 |<a href="#">10 comments</a></h6>
+                <img src="#" alt="Blog Post title Here"/>
+
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                    tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+                    quis nostrud <a href="#">Continue Reading ...</a>
+                </p>
+            </article>
+            <article>
+                <h2>Blog Post Name here</h2>
+                <h6>December 2010 |<a href="#">10 comments</a></h6>
+                <img src="#" alt="Blog Post title Here"/>
+
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                    tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+                    quis nostrud <a href="#">Continue Reading ...</a>
+                </p>
+            </article>
+            <article>
+                <h2>Blog Post Name here</h2>
+                <h6>December 2010 |<a href="#">10 comments</a></h6>
+                <img src="#" alt="Blog Post title Here"/>
+
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                    tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+                    quis nostrud <a href="#">Continue Reading ...</a>
+                </p>
+            </article>
+            <article>
+                <h2>Blog Post Name here</h2>
+                <h6>December 2010 |<a href="#">10 comments</a></h6>
+                <img src="#" alt="Blog Post title Here"/>
+
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                    tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+                    quis nostrud <a href="#">Continue Reading ...</a>
+                </p>
+            </article>
+            <button>The Blog</button>
+        </div>
+        <aside>
+            <ul id="tabHeadings">
+                <li>
+                    <a href="#">Comments</a>
+                </li>
+                <li>
+                    <a href="#">Categories</a>
+                </li>
+                <li>
+                    <a href="#">Archives</a>
+                </li>
+            </ul>
+            <ul id="comments">
+                <li>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                        tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+                        quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+                    </p>
+
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                        tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+                        quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+                        consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+                        cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+                        proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+                    </p>
+                    <h6>Posted by:Someone on <a href="#">Photoshop Tutorial</a></h6>
+                </li>
+            </ul>
+            <ul id="Category">
+                <li>
+                    <a href="#">Categories</a>
+                </li>
+                <li>
+                    <a href="#">Categories</a>
+                </li>
+                <li>
+                    <a href="#">Categories</a>
+                </li>
+                <li>
+                    <a href="#">Categories</a>
+                </li>
+
+            </ul>
+            <ul id="Archive">
+                <li>
+                    <a href="#">Archives</a>
+                </li>
+                <li>
+                    <a href="#">Archives</a>
+                </li>
+                <li>
+                    <a href="#">Archives</a>
+                </li>
+            </ul>
+        </aside>
+        <div id="footer-wrap">
+        <footer>
+           Copyright Mohan Ambalavanan
+        </footer>
+        </div>
     </div>
 
 
