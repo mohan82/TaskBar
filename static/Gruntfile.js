@@ -9,7 +9,14 @@ module.exports = function(grunt) {
                     src:["**/**.scss"],
                     dest:"../task_bar/static/",
                     ext:".css"
-                }]
+                }],
+                files:[{
+                    expand:true,
+                    cwd:"sass/blog", 
+                    src:["**/**.scss"],
+                    dest:"../task_bar/static/blog",
+                    ext:".css"
+                }],
                 // files: {
                 //     '../task_bar/static/main.css': 'sass/main.scss',
                 //     '../task_bar/static/position.css':'sass/position.scss'

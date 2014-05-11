@@ -16,3 +16,7 @@ def positioning():
 @app.route('/foodbox')
 def foodbox():
 	return render_template("foodbox.html",title="FoodBox WebSite");
+
+@app.route('/blog')
+def blogpost():
+	return render_template("blog.html",title="Mohan Ambalavanans Blog");
