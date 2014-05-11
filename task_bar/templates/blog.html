@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>{{ title }}</title>          
+    <link rel=stylesheet type=text/css href="{{ url_for('static', filename='blog/960_24_col.css') }}">
+    <link rel=stylesheet type=text/css href="{{ url_for('static', filename='blog/text.css') }}">
+    <link rel=stylesheet type=text/css href="{{ url_for('static', filename='blog/reset.css') }}">
+    <link rel=stylesheet type=text/css href="{{ url_for('static', filename='blog/main.css') }}">
+
+</head>
+<body>
+
+<div class="container">
+    <header>
+        <h1> Mohan Ambalavanans Blog </h1>
+        <nav>
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Portfolio</a></li>
+                <li><a href="#">Blog</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+        </nav>
+        <menu>
+            <ul id="social">
+                <li><img src="{{ url_for('static',filename='images/icons/1.png') }}" alt="Facebook"/> </li>
+                <li><img src="{{ url_for('static',filename='images/icons/1.png') }}" alt="Dribble"></li>
+                <li><img src="{{ url_for('static',filename='images/icons/1.png') }}" alt="Twitter"/> </li>
+                <li><img src="{{ url_for('static',filename='images/icons/1.png' )}}" alt="Flickr"></li>
+            </ul>
+        </menu>
+        <form action="#" method="post">
+           Search: <input type="text" name="Search" id="search" placeholder="Search"/>
+        </form>
+    </header>
+    <div id="banner-wrap">
+        <div id="banner">
+            <h2>Welcome to Mohan Ambalavanans Blog</h2>
+            <div id="featured">
+                <img src="" alt="Featured">
+                <img src="" alt="Featured2"/>
+            </div>
+        </div>
+
+    </div>
+
+
+</div>
+</body>
+</html>
