@@ -1,0 +1,24 @@
+{% extends "blog/html_skelton.html" %}
+
+{% block content %}
+    <!-- Top Bar -->
+    {% include "blog/includes/topbar.html" %}
+    <!-- End Top Bar -->
+    <!-- Banner -->
+    {% include "blog/includes/banner.html" %}
+    <!-- End Banner -->
+    <div id="main">
+     <!-- Primary comment -->
+        <div id="primary">
+            <h3>From the Blog</h3>
+            {% for foo in range(3)  %}
+              {% include "blog/includes/article.html" %}
+            {% endfor %}
+            <button>The Blog</button>
+        </div>
+      <!-- End Primary -->
+     <!-- Aside -->
+    {% include "blog/includes/aside.html" %}
+     <!-- End Aside-->
+    </div>
+{% endblock %}

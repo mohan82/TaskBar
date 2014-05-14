@@ -1,0 +1,28 @@
+<!doctype html>
+<html lang="en">
+{% block entire_head %}
+    <head>
+        <meta charset="UTF-8">
+        <title>{{ title }}</title>
+        <link rel="stylesheet" href="{{ url_for('static', filename='blog/960_24_col.css') }}"/>
+        <link rel="stylesheet" href="{{ url_for('static', filename='blog/text.css') }}"/>
+        <link rel="stylesheet" href="{{ url_for('static', filename='blog/reset.css') }}"/>
+    </head>
+{% endblock %}
+{% block entire_body %}
+    <body>
+    <div class="container">
+        {% block default_title %}
+            <h1>{{ title }}</h1>
+        {% endblock %}
+        {% block content %}{% endblock %}
+
+    </div>
+{% endblock %}
+</body>
+{% block entire_footer %}
+ <footer>
+ &copy; Copyright Mohan Ambalavanan
+ </footer>
+{% endblock %}
+</html>

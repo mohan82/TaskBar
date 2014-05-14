@@ -11,12 +11,13 @@ def hello_world():
 
 @app.route('/position')
 def positioning():
-    return  render_template("position.html",title="Positioning");
+    return  render_template("position.html",title="Positioning")
 
 @app.route('/foodbox')
 def foodbox():
-	return render_template("foodbox.html",title="FoodBox WebSite");
+    return render_template("foodbox.html",title="FoodBox WebSite")
 
 @app.route('/blog')
 def blogpost():
-	return render_template("blog.html",title="Mohan Ambalavanans Blog");
+    return render_template("blog/blog.html",title="Mohan Ambalavanans Blog")
+
