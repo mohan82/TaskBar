@@ -1,2 +1,22 @@
-header nav ul li a {
-  text-transform: uppercase; }
+#nav {
+    background: red;
+}
+
+#primary {
+    background: gray;
+}
+
+#secondary {
+    background: green;
+}
+
+#main {
+    min-height: 800px;
+    background: #ccc;
+}
+
+#aside {
+    background: green;
+}
+
+

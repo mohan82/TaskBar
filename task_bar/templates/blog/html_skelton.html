@@ -5,8 +5,10 @@
         <meta charset="UTF-8">
         <title>{{ title }}</title>
         <link rel="stylesheet" href="{{ url_for('static', filename='blog/960_24_col.css') }}"/>
-        <link rel="stylesheet" href="{{ url_for('static', filename='blog/text.css') }}"/>
-        <link rel="stylesheet" href="{{ url_for('static', filename='blog/reset.css') }}"/>
+        <link rel="stylesheet" href="{{ url_for('static', filename='blog/text.css')}}"/>
+        <link rel="stylesheet" href="{{ url_for('static', filename='blog/reset.css')}}"/>
+        <link rel="stylesheet" href="{{ url_for('static', filename='blog/main.css')}}"/>
+        {%block header_content %}{% endblock%}
     </head>
 {% endblock %}
 {% block entire_body %}
@@ -16,7 +18,6 @@
             <h1>{{ title }}</h1>
         {% endblock %}
         {% block content %}{% endblock %}
-
     </div>
 {% endblock %}
 </body>
